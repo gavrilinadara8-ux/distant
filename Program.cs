@@ -4,7 +4,6 @@ using System.Threading.Tasks;
 
 class Program
 {
-    // 3 компьютера
     static SemaphoreSlim comps = new SemaphoreSlim(3);
 
     static async Task Main()
