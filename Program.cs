@@ -23,7 +23,6 @@ class Program
         await Task.Delay(5000);
         Console.WriteLine("\nВсе студенты закончили!");
     }
-
     static async Task Student(int id)
     {
         Console.WriteLine($"Студент {id} ждёт...");
